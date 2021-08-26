@@ -1,0 +1,205 @@
+.btnD{
+  display: flex;
+  align-items:center;
+justify-content:center;
+gap:6px;
+}
+#ab{
+  display: flex;
+  align-items:center;
+justify-content:center;
+}
+.a4{
+  width:210mm;
+  height: 297mm;
+  border: solid 1px black;
+  margin-bottom: 3%;
+  background-color: white;
+  position: relative;
+ min-height: 60%;
+ 
+}
+.header{
+  font-family:Arial;
+  font-size: 10pt;
+  color: black;
+  resize: none;
+  overflow: hidden;
+ margin-bottom: 4%;
+  border:none;
+  padding-left:6% ;
+}
+.header:hover{
+  border: 2px dashed black;
+}
+.head{
+  display: flex;
+  align-items:flex-start;
+
+}
+.date{
+  font-size: 11pt;
+  font-style: italic;
+  font-family: Arial;
+  border: none;
+  padding-left: 6%;
+}
+.date:hover{
+  border: 2px dashed black;
+}
+.date2{
+  display: flex;
+  align-items:flex-start;
+}
+.info{
+  font-family: Arial;
+  font-size: 11pt;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 5.5%;
+}
+.manInfo{
+  font-family: Arial;
+  font-size: 10px;
+  text-align:left;
+  margin-left:72%;
+  margin-top: -1%
+}
+
+.inform1{
+
+  font-family: Arial;
+  font-size: 10pt;
+  text-align: left;
+  line-height: 55%;
+}
+.inform3{
+  text-align: center;
+  font-family: Arial;
+  font-size: 10pt;
+margin-left: 8%;
+
+}
+.inform2{
+  border:none;
+}
+.inform2:hover{
+  border: 2px dashed black;
+}
+.bo{
+  display:flex;
+  align-items:center;
+ justify-content: space-around;
+  padding-left: 6%;
+}
+.net{
+  font-weight: bold;
+  font-size: 11pt;
+  font-family: Arial;
+  text-align: right;
+  padding-right: 8%;
+}
+.total{
+  font-weight: bold;
+  font-size: 11pt;
+  font-family: Arial;
+
+
+}
+.va{
+  font-weight: bold;
+  font-size: 11pt;
+  font-family: Arial;
+  border: none;
+
+}
+.va:hover{
+  border: 2px dashed black;
+}
+.manu{
+  font-family: Arial;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  margin-top:2%;
+}
+.manu2{
+  font-family: Arial;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1%;
+
+}
+.nots{
+  font-family: Arial;
+  font-size: 8pt;
+  text-align: left;
+  resize: none;
+  overflow:hidden;
+  border: none;
+}
+.nots:hover{
+  border: 2px dashed black;
+}
+.checking{
+  text-align: left;
+}
+.note2{
+  font-family: Arial;
+  font-size: 8pt;
+  text-align: left;
+  margin-top:-1%;
+  margin-right:2%;
+}
+/* .foot{
+  font-family: Arial;
+  font-size: 8pt;
+  color: gray;
+  font-style: italic;
+  text-align: justify;
+  margin-right:2%;
+
+ 
+} */
+.inform5{
+  font-family: Arial;
+  font-size: 10pt;
+  text-align: left;
+ margin-left:72%;
+ line-height:15%;
+}
+.mainfo{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.inform4{
+border: none;
+}
+
+.foot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: Arial;
+  font-size: 8pt;
+  color: gray;
+  font-style: italic;
+  text-align: justify;
+  margin-bottom:5%;
+  margin-left: 5%;
+  margin-right: 4%;
+}
+.in{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 6%;
+}
+.manufacnote{
+  display:flex;
+  flex-direction: column;
+  padding-left: 6%;
+  align-items: flex-start;
+}
